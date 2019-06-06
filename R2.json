@@ -27,7 +27,7 @@
       "kind": "Phase"
     },
     {
-      "phase": "R1/${relVersion}/Test",
+      "phase": "${relName}/${relVersion}/Test",
       "isDisabled": false,
       "name": "Test",
       "kind": "Task"
