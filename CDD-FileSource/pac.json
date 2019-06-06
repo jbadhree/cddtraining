@@ -1,14 +1,14 @@
 {
 "parameters": [{
 "name":"appVersion",
-"value":"v5"
+"value":"v6"
 },
 {
 "name":"relVersion",
-"value":"V5"
+"value":"V6"
 },          {
 "name":"relName",
-"value":"V5"
+"value":"V6"
 },          {
 "name":"runFlag",
 "value":"true"
