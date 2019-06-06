@@ -3,7 +3,5 @@
   hosts: 127.0.0.1
   connection: local
   tasks:
-  - name: Create log file
-    file:
-      path: /home/cdduser/mylogfile.log
-      state: touch
+  - debug:
+      msg: "Hello"
