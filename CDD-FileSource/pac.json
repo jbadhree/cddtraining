@@ -1,14 +1,14 @@
 {
 "parameters": [{
 "name":"appVersion",
-"value":"v3"
+"value":"v4"
 },
 {
 "name":"relVersion",
-"value":"V3"
+"value":"V4"
 },          {
 "name":"relName",
-"value":"V3"
+"value":"V4"
 }
 ],
 "reference":{
