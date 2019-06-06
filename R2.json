@@ -1,0 +1,36 @@
+{
+  "objects": [
+    {
+      "application": "Local|Mobile",
+      "name": "${appVersion}",
+      "kind": "ApplicationVersion"
+    },
+    {
+      "ownerParties": [
+        "badhreenarayan.jeyabarathibabu@broadcom.com"
+      ],
+      "applicationVersions": [
+        "Local|Mobile/${appVersion}"
+      ],
+      "markAsDonePhaseName": "",
+      "runOnCreation": false,
+      "version": "${relVersion}",
+      "name": "R1",
+      "kind": "Release"
+    },
+    {
+      "release": "R1/${relVersion}",
+      "approvalGate": "AUTOMATIC",
+      "skipTasksWithUnchangedApplications": false,
+      "isApprovalRequired": false,
+      "name": "Test",
+      "kind": "Phase"
+    },
+    {
+      "phase": "R1/${relVersion}/Test",
+      "isDisabled": false,
+      "name": "Test",
+      "kind": "Task"
+    }
+  ]
+}
