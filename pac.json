@@ -1,0 +1,15 @@
+{
+"parameters": [{
+"name":"appVersion",
+"value":"v2"
+},
+{
+"name":"relVersion",
+"value":"V2"
+}
+],
+"reference":{
+"fileName":"pac.json",
+"fileSource":""
+}
+}
