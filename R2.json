@@ -15,11 +15,11 @@
       "markAsDonePhaseName": "",
       "runOnCreation": false,
       "version": "${relVersion}",
-      "name": "R1",
+      "name": "${relName}",
       "kind": "Release"
     },
     {
-      "release": "R1/${relVersion}",
+      "release": "${relName}/${relVersion}",
       "approvalGate": "AUTOMATIC",
       "skipTasksWithUnchangedApplications": false,
       "isApprovalRequired": false,
