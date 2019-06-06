@@ -5,5 +5,5 @@
   tasks:
   - name: Create log file
     file:
-      path: /tmp/mylogfile.log
+      path: /home/cdduser/mylogfile.log
       state: touch
